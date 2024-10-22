@@ -14,7 +14,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system/lib64/libfmjni.so"],
 		},
 	},
@@ -30,7 +30,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libwifi-hal-mtk.so"],
 		},
 	},
