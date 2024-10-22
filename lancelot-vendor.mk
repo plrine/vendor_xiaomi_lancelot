@@ -474,7 +474,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/pm_test_item_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pm_test_item_config.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sceneDetection.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -593,12 +592,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxVdecEx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
@@ -712,7 +705,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libssl-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-mdapp.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so \
@@ -839,7 +831,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
@@ -1106,7 +1097,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libssl-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-mdapp.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
@@ -1277,5 +1267,5 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.mediatek.hardware.gpu@1.0-service
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.mediatek.hardware.gpu@1.0-service.xml
